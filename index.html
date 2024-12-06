@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casey's Porfolio</title>
+    <script src="https://kit.fontawesome.com/da81d09a2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Nav Bar-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Casey's Porfolio</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#Home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#About">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Gallery">Gallery</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars" onclick=hamburg()></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="links">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Gallery">Gallery</a>
+                <a href="#Contact">Contact</a>
+                <i class="fa-solid fa-x" onclick=cancel()></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="Profile2.jpg" alt="Profile">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Beligan, Van Casey Louis R.</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for=""></label></div>
+                <div class="social-links">
+                    <a href="https://github.com/username-44-44" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/casey.beligan.2024/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/van-casey-louis-beligan-08b7072ba/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/beligancasey/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <button><a href="#Contact">Hire me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="about" id="About">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="Profile2.jpg" alt="Profile">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Programming is my passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        I am currently a freshman at the University of the Cordilleras, studying Computer Science.  
+                        I have always been passionate about video games and the technology behind them, which is what led me to pursue a career in this field. 
+                        I am eager to learn more about game design, programming, and creating immersive experiences for players. 
+                        When I am not studying, you can find me experimenting with game development tools, playing indie games, or exploring new ways to bring creative ideas to life through code. 
+                        I am looking forward to expanding my skills and connecting with others who share my love for game development!
+                    </p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button><a href="Black & White Minimalistic Professional Resume.png" download>Download Resume</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills" id="Skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">Skills Reflects Our Knowledge</div>
+                    <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+                        I have foundational skills in several programming languages, including HTML and CSS , which I use to build and style websites. I am also proficient in Java and C# , allowing me to develop more complex applications and games. While I’m still building my expertise in JavaScript , I am eager to continue improving my skills in web development and game programming.
+                    </p>
+                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <div class="num">6</div>
+                        <div class="exp">
+                            Months Of <br/>
+                            Experience
+                        </div>
+                    </div>
+                </div> 
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">50%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">50%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic"data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Javascipt</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">50%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">Java</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="650">C#</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="900">50%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Porfolio Gallery Section-->
+
+    <section class="gallery" id="Gallery">
+        <div class="content">
+            <div class="title" data-aos="fade-right" data-aos-duration="1200">
+                <span>Portfolio Gallery</span>
+            </div>
+            <div class="photo-gallery">
+
+                <div class="column">
+                    <div class="photo" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">
+                        <img src="pic1.jpg" alt="">
+                    </div>
+                    <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500">
+                        <img src="pic3.jpg." alt="">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="photo" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">
+                        <img src="pic5.jpg" alt="">
+                    </div>
+                    <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                        <img src="pic6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="photo" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400">
+                        <img src="pic2.jpg" alt="">
+                    </div>
+                    <div class="photo" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="700">
+                        <img src="pic4.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me Section-->
+    <section class="contact" id="Contact">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                <div class="contact-form">
+                    <h3 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="400">Send me a message</h3>
+                    <form>
+                        <div class="form-group" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
+                            <input type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">
+                            <input type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1200">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer Section-->
+    <footer>
+        <div class="text">
+            <span>Created by Beligan, Van Casey Louis R.</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
+
+    <script>
+        function hamburg(){
+        const sidebar = document.querySelector('.dropdown')
+        sidebar.style.display = 'flex'
+        }
+        function cancel(){
+        const sidebar = document.querySelector('.dropdown')
+        sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
